@@ -1,11 +1,10 @@
-import AppInfo from "../app-info/app-info";
-import AppHeader from "../app-head/app-head";
+import AppHero from "../app-hero/app-hero";
 function App() {
   return (
     <>
-      <AppHeader />
-      <AppInfo />
+      <AppHero />
     </>
   );
 }
+
 export default App;
